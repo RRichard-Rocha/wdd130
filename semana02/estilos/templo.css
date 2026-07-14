@@ -32,15 +32,14 @@ h1{
 picture{
     display: block;
     margin-bottom: 30px;
-    border-bottom: 2px;
-    border-color: #2d2e2c;
 }
 
 img{
     width: 500px;
     height: auto;
-    border-radius: 2px;
-    border-color: #2d2e2c;
+    border: 2px #2d2e2c;
+    padding: 2px;
+    box-shadow: 0 0 30px #2d2e2c;
 }
 
 section{
