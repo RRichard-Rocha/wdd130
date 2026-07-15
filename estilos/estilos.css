@@ -1,3 +1,13 @@
+:root {
+    --cor-de-fundo-geral: #2d2e2c;
+    --fonte-titulo: 'Lucida Grande';
+    --padding-geral: 1rem;
+    --bordas: 2px #070707;
+    --cor-de-titulo: black;
+    --padding-para-links: 2px,
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +20,9 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 4px rgb(0, 0, 0 / 0.2);
-    padding: 4px;
-    background-color: #2d2e2c;
+    border: var(--bordas);
+    padding: var(--padding-geral);
+    background-color: Var(--cor-de-fundo-geral);
     color: white;
 }
 
@@ -24,34 +34,35 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: #2d2e2c;
-    padding: 4px;
+    border: var(--bordas);
+    padding: var(--padding);
     box-shadow: rgb(241, 241, 197);
 }
 
 p {
-    padding: 0;
+    padding: var(--padding-geral);
+    text-align: center;
 }
 
 footer {
     margin-top: 2px;
     border-top: 2px;
-    #2d2e2c;
-    border-bottom: 2px #2d2e2c;
+    border-bottom: var(--bordas);
     text-align: center;
 }
 
 nav {
-    background-color: #2d2e2c;
-    padding: 2px;
+    background-color: var(--cor-de-fundo-geral);
+    padding: var(--padding-para-links);
 }
 
 nav a {
     color: blue;
-    padding: 3px;
+    padding: var(--padding-para-links);
     display: block;
 }
 
 h1 {
-    color: red;
+    font: var(--fonte-titulo);
+    color: var(--cor-de-titulo);
 }
