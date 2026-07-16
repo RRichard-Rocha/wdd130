@@ -1,16 +1,25 @@
-:root {
-    --cor-de-fundo-geral: #2d2e2c;
-    --fonte-titulo: 'Lucida Grande';
-    --padding-geral: 1rem;
-    --bordas: 2px #070707;
-    --cor-de-titulo: black;
-    --padding-para-links: 2px,
-
-}
-
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo-geral: #2d2e2c;
+    --fonte-titulo: Arial, Helvetica, sans-serif;
+    --padding-geral: 1rem;
+    --bordas: 2px #070707;
+    --cor-de-titulo: black;
+    --padding-para-links: 10px,
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #222;
+    background: #fff;
+    margin: 0;
 }
 
 main {
@@ -19,11 +28,8 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: var(--bordas);
-    padding: var(--padding-geral);
-    background-color: Var(--cor-de-fundo-geral);
-    color: white;
+    text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -31,17 +37,25 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 185px;
+}
+
 main img {
+    float: right;
     width: 150px;
     height: auto;
-    border: var(--bordas);
+    margin-left: 4px;
+    border: black;
     padding: var(--padding);
-    box-shadow: rgb(241, 241, 197);
+    box-shadow: rgb(2, 2, 2);
 }
 
 p {
     padding: var(--padding-geral);
-    text-align: center;
+    text-align: justify;
 }
 
 footer {
@@ -57,7 +71,7 @@ nav {
 }
 
 nav a {
-    color: blue;
+    color: steelblue;
     padding: var(--padding-para-links);
     display: block;
 }
@@ -65,4 +79,19 @@ nav a {
 h1 {
     font: var(--fonte-titulo);
     color: var(--cor-de-titulo);
+    font-size: x-large;
+    text-align: center;
+}
+
+/*Seletores de Classe*/
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.identacao {
+    padding-left: 2rem;
 }
