@@ -102,7 +102,7 @@ h1 {
     color: var(--cor-de-titulo);
     font-size: x-large;
     text-align: center;
-    border-bottom: #000;
+    border-bottom: 1px outset black;
 }
 
 /*Seletores de Classe*/
