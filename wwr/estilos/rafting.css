@@ -99,15 +99,16 @@ article {
 }
 
 .hero article img {
-    float: center;
+    float: right;
     width: 125px;
-    /*margin-left: 4px;*/
+    margin-left: 4px;
 }
 
-.grid-header {
+header {
     display: grid;
     grid-template-columns: 150px auto;
     grid-gap: 30px;
+    text-decoration: none;
 }
 
 nav ul {
