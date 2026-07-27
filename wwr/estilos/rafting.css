@@ -1,50 +1,82 @@
 :root {
     --cor-primaria: rgb(8, 50, 85);
     --cor-secundaria: rgb(137, 241, 137);
-    --cor-destaque1: steelblue;
+    --cor-destaque1: rgb(8, 50, 85);
     --cor-destaque2: rgb(241, 255, 164);
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: var(--fonte-body);
     color: var(--cor-destaque1);
     background-color: var(--cor-destaque1);
-    }
-header, main, footer{
+}
+
+header,
+main,
+footer {
     width: 840px;
     margin: auto;
-    background-color: #fff;
+    background-color: steelblue;
 }
-h1, h2{
+footer{
+    display: flex;
+    justify-content: left;
+    
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1,
+h2 {
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     text-align: center;
 }
-nav, p, section, article{
+
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: auto;
+
+}
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a{
+
+.socialmedia a {
     text-decoration: none;
 }
-.redes-sociais a{
+
+.redes-sociais a {
     text-decoration: none;
 }
+
 .hero {
     position: relative;
 }
-.hero img{
+
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-.hero article{
+
+.hero article {
     position: absolute;
     bottom: 1px;
     width: 95%;
@@ -52,8 +84,9 @@ nav, p, section, article{
     background-color: var(--cor-destaque2);
     color: darkblue;
     opacity: 0.8;
-    text-shadow:var(--cor-primaria)
+    text-shadow: var(--cor-primaria)
 }
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -64,8 +97,28 @@ nav, p, section, article{
     background-color: var(--cor-destaque1);
     color: var(--cor-secundaria);
 }
-.hero article img{
-    float: right;
+
+.hero article img {
+    float: center;
     width: 125px;
-    margin-left: 4px;
+    /*margin-left: 4px;*/
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-gap: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
 }
