@@ -42,14 +42,18 @@ h2 {
     color: var(--cor-primaria);
     text-align: center;
 }
-
-figure{
+.section-aventura{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex: auto;
-
+    justify-content: center;
 }
+
+figure{
+    margin: 0;
+    max-width: 160px;
+    text-align: center;
+}
+
 nav,
 p,
 section,
