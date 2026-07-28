@@ -42,7 +42,7 @@ header nav {
 }
 
 header nav.flex-nav {
-    background-color: #ffffff;
+    background-color: var(--cor-destaque1);
     padding: 10px;
     border-radius: 5px;
 }
