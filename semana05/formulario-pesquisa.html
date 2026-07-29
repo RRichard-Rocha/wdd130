@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Richard Machado da Rocha | WDD 130</title>
+    <meta name="description"
+      content="Richard Rocha, estudante do curso WDD 130. Pagina de Aprendizado. Semana 05 Formularios">
+    <meta name="author" content="Richard Machado da Rocha">
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Página Inicial</a>
+        </nav>
+    </header>
+        <main>
+            <form>
+                <label for="nomecompleto">Nome Completo:</label>
+                <input type="text" id="nome-completo" name="nome-completo" required>
+                <label for="emaildousuario">E-mail:</label>
+                <input type="email" id="email-do-usuario" name="email-do-usuario" required>
+            </form>
+            
+            <form>
+                <label for="navegador">Qual é o seu navegador favorito?</label>
+                <select name="navegador" id="navegador">
+                    <option value="chrome">Navegador Chrome</option>
+                    <option value="safari">Navegador Safari</option>
+                    <option value="edge">Navegador Edge</option>
+                    <option value="firefox">Navegador Brave</option>
+                    <option value="outro">Outros</option>
+                </select>
+                <label for="pet">Você tem um bichinho de estimação em casa?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feddback">Liste os lugares onde você morou:</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Curitiba, Paraná, Brasil"></textarea>
+                <button type="submit">Enviar Pesquisa</button>                
+            </form>
+        </main>
+    <footer>
+        <p>2026&copy;💀Richard Rocha💀Paraná, Brasil</p>
+
+    </footer>
+</body>
+
+</html>
