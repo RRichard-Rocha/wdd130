@@ -60,7 +60,7 @@ nav a {
     font-weight: bold;
 }
 
-article {
+.article-contato {
     display: grid;
     gap: 3px;
     flex-direction: column;
@@ -162,7 +162,6 @@ label {
     margin-top: 15px;
 }
 
-/* Ajuste essencial para inputs de texto e email ocuparem a largura da coluna */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -170,7 +169,6 @@ textarea {
     width: 100%;
 }
 
-/* Impede que radio e checkbox fiquem com 100% de largura */
 input[type="radio"],
 input[type="checkbox"] {
     width: auto;
