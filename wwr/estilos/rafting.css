@@ -106,11 +106,11 @@ h2 {
     text-align: center;
 }
 
-p,
+/*p,
 article {
     margin: 16px;
     padding: 8px;
-}
+}*/
 
 .section-aventura {
     display: flex;
@@ -237,18 +237,16 @@ nav a {
 
 .article-contato {
     display: grid;
-    gap: 3px;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    color: #ffffff;
-    padding: 15px;
+    justify-content: space-around;
+    color: #ffffff;    
 }
 
 .map-end {
     display: grid;
     grid-template-rows: min-content;
     justify-items: left;
+    border: 6px solid black;
 }
 
 .map-end iframe {
@@ -262,7 +260,7 @@ h2 {
     font-family: var(--fonte-titulo);
     color: #ffffff;
     text-align: center;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .section-servir {
