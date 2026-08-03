@@ -188,52 +188,6 @@ footer .redes-sociais a img {
     display: block;
 }
 /* ***************************************** */
-body {
-    font-family: var(--fonte-body);
-    color: #ffffff;
-    background-color: var(--cor-destaque1);
-}
-
-header,
-main,
-footer {
-    width: 840px;
-    margin: auto;
-    background-color: var(--cor-primaria);
-}
-
-header {
-    display: grid;
-    grid-template-columns: 160px auto;
-    grid-gap: 30px;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-header nav {
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-}
-
-header nav.flex-nav {
-    background-color: var(--cor-destaque1);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 .article-contato {
     display: grid;
@@ -253,14 +207,6 @@ nav a {
     width: 100%;
     height: 450px;
     display: block;
-}
-
-h1,
-h2 {
-    font-family: var(--fonte-titulo);
-    color: #ffffff;
-    text-align: center;
-    /*padding: 10px;*/
 }
 
 .section-servir {
@@ -299,33 +245,6 @@ h2 {
     font-size: 0.9rem;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-footer .socialmedia {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    background: none;
-    margin: 0;
-    padding: 0;
-}
-
-footer .socialmedia a img {
-    width: 28px;
-    height: 28px;
-    display: block;
-}
-
-.socialmedia a {
-    text-decoration: none;
-    display: inline-block;
-}
-
 form {
     display: grid;
     gap: 5px;
@@ -342,8 +261,7 @@ textarea {
     width: 100%;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
+input {
     width: auto;
     display: inline-block;
     margin-right: 8px;
