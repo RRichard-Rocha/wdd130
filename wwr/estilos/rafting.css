@@ -22,7 +22,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
     margin: auto;
     background-color: var(--cor-primaria);
 }
@@ -73,7 +73,7 @@ nav a {
 
 .hero article {
     position: absolute;
-    bottom: 10px;
+    bottom: 580px;
     left: 2.5%;
     width: 95%;
     padding: 12px;
@@ -286,6 +286,13 @@ button {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: start;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
     margin-top: 20px;
     padding: 0 20px;
 }
