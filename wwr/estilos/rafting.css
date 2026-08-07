@@ -318,6 +318,7 @@ button {
     display: block;
     width: 100%;
     height: auto;
+    opacity: 0.9;
 }
 .newsletter-principal {
     display: flex;
@@ -335,4 +336,24 @@ button {
     background-color: var(--cor-destaque2);
     color: rgb(0, 0, 100);
     opacity: 0.95;
+}
+.botao-passeio{
+    position: absolute;
+    width: fit-content;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque1);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.botao-passeio a {
+    color: var(--cor-destaque1);
+    text-decoration: none;
+    font-weight: bold;
 }
