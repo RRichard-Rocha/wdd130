@@ -127,6 +127,7 @@ h2 {
     width: 100%;
     margin-bottom: 10px;
     color: #ffffff;
+    font-size:x-large;
 }
 .section-aventura figure {
     margin: 0;
@@ -136,7 +137,8 @@ h2 {
 
 .section-aventura figure img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
     display: block;
 }
 
