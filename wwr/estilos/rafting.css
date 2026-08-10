@@ -30,10 +30,8 @@ footer {
 header {
     display: grid;
     grid-template-columns: 60px auto;
-   
-   
-  
 }
+
 header img {
     width: 100px;
     height: 70px;
@@ -41,12 +39,6 @@ header img {
     margin-left: 10px;
     background-color: transparent;
 }
-
-/*header nav {
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-}*/ 
 
 header nav.flex-nav {
     background-color: transparent;
@@ -66,7 +58,6 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     background-color: transparent;
-
 }
 
 .hero {
@@ -123,12 +114,12 @@ h2 {
     padding: 8px 10px;
 }
 
-.section-aventura h4 {
+.section-aventura h2 {
     width: 100%;
     margin-bottom: 10px;
     color: #ffffff;
-    font-size: x-large;
 }
+
 .section-aventura figure {
     margin: 0;
     width: 18%;
@@ -137,8 +128,7 @@ h2 {
 
 .section-aventura figure img {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: auto;
     display: block;
 }
 
@@ -146,8 +136,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    
+    padding: 10px 20px;   
 }
 
 footer .socialmedia{
@@ -164,6 +153,7 @@ footer .socialmedia a img {
     height: 28px;
     display: block;
 }
+
 .socialmedia a {
     text-decoration: none;
     display: inline-block;
@@ -259,20 +249,19 @@ label {
 }
 
 input[type="text"],
+
 input[type="email"],
+
 textarea {
     padding: 5px 10px;
     width: 100%;
+    resize: vertical;
 }
 
 input {
     width: auto;
     display: inline-block;
     margin-right: 8px;
-}
-
-textarea {
-    resize: vertical;
 }
 
 button {
@@ -293,6 +282,7 @@ button {
     margin-top: 20px;
     padding: 0 20px;
 }
+
 .newsletter {
     display: flex;
     flex-direction: column;
@@ -300,6 +290,7 @@ button {
     margin-top: 20px;
     padding: 0 20px;
 }
+
 /* ******************PAGINA INICIAL*********************** */
 .mensagem-principal {
     position: relative;
@@ -315,7 +306,6 @@ button {
     color: var(--cor-secundaria);
 }
 
-
 .mensagem-principal img {
     display: block;
     width: 100%;
@@ -325,25 +315,28 @@ button {
 .newsletter-principal {
     display: flex;
     flex-direction: column;
-    background-color: rgba(241, 255, 164, 0.90);
+    background-color: rgba(241, 255, 164, 0.80);
     color: var(--cor-destaque1);
     font-weight: bold;
-    width: 350px;             
-    margin: -700px 100px 400px auto;
+    width: 28%;
+    min-width: 300px;         
+    margin-top: -45%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    margin-left: auto;
     position: relative;       
     z-index: 10;              
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    
-    
-    
+    box-shadow: 0 4px 10px black; 
 }
-.newsletter-principal h2{
+
+.newsletter-principal h2 {
     color: var(--cor-destaque1);
 }
 
-.botao-passeio{
+
+.botao-passeio {
     position: absolute;
     width: fit-content;
     top: 100px;
@@ -358,31 +351,56 @@ button {
     font-weight: bold;
     border-radius: 5px;
 }
+
 .botao-passeio a {
     color: var(--cor-destaque1);
     text-decoration: none;
     font-weight: bold;
 }
+
 h3, h4 {
     font-family: var(--fonte-titulo);
     color: #ffffff;
     text-align: center;
 }
-section p {
-    font-size: 20px;
-    text-align: center;
 
-}
-section h3 {
+h3 {
     width: 100%;
     color: #ffffff;
     font-size: 40px;
     text-align: center;
-    position: relative;
-    top: -90px;
-    margin: 20px 0;
-    z-index: 10;
+    margin: 30px 0 15px 0;
 }
-.section-aventura h4 {
-    font-size: 50px;
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.p-inicial {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    margin: 16px 0;
+    padding: 8px 10px;
+}
+
+.p-inicial h4 {
+    grid-column: 1 / -1; 
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.p-inicial figure {
+    margin: 0;
+    width: 100%; /* Agora o tamanho é controlado pelo grid, não pelo figure */
+    text-align: center;
+}
+
+.p-inicial figure img {
+    width: 100%;
+    height: 300px; /* Ajuste a altura conforme preferir */
+    object-fit: cover;
+    display: block;
 }
