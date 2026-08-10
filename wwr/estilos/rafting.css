@@ -404,3 +404,197 @@ p {
     object-fit: cover;
     display: block;
 }
+/* ******************PAGINA PASSEIOS*********************** */
+.p-passeios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    margin: 30px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.anuncio {
+    background-color: rgba(241, 255, 164, 0.85);
+    color: var(--cor-destaque1);
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px black;
+}
+
+.anuncio h4 {
+    color: var(--cor-destaque1);
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.anuncio h2 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--cor-destaque1);
+}
+
+.anuncio h3 {
+    color: var(--cor-destaque1);
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.anuncio p {
+    font-size: 18px;
+    text-align: left;
+    margin: 8px 0;
+    color: var(--cor-destaque1);
+}
+
+.p-passeios h2 {
+    grid-column: 1 / -1; 
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.p-passeios > p {
+    grid-column: 1 / -1; 
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.passeios-botao-passeio {
+    position: relative;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque1);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 0 4px 10px black; 
+    text-align: center;
+}
+
+.passeios-botao-passeio a {
+    color: var(--cor-destaque1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tabela-passeios {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.tabela-passeios table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(241, 255, 164, 0.85);
+    color: var(--cor-destaque1);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.tabela-passeios th, .tabela-passeios td {
+    border: 2px solid var(--cor-primaria);
+    padding: 12px 15px;
+}
+
+.passeios-artigo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    grid-column: span 1;
+}
+
+.passeios-artigo img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.passeios-artigo div {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.passeios-artigo h3 {
+    font-size: 22px;
+    margin: auto;
+    text-align: left;
+    color: var(--cor-secundaria);
+}
+
+.passeios-artigo p {
+    font-size: 15px;
+    text-align: left;
+    color: #f0f0f0;
+}
+
+.galeria-passeios {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.galeria-passeios h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.galeria-passeios p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.galeria-grid figure {
+    margin: 0;
+    border-radius: 8px;
+    border: 2px solid var(--cor-secundaria);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.galeria-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mensagem-principal-passeios {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: var(--cor-primaria);
+}
+
+.mensagem-principal-passeios h1 {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    background-color: rgba(241, 255, 164, 0.20);
+    color: var(--cor-secundaria);
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 50%;
+}
