@@ -518,6 +518,10 @@ p {
     grid-column: span 1;
 }
 
+.tabela-passeios h2 {
+    font-size: 45px;
+}
+
 .passeios-artigo img {
     width: 100%;
     height: 220px;
