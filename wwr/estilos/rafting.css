@@ -459,7 +459,7 @@ p {
     font-size: 35px;
 }
 
-.p-passeios > p {
+.p-passeios p {
     grid-column: 1 / -1; 
     text-align: center;
     font-size: 18px;
@@ -545,7 +545,7 @@ p {
 .passeios-artigo p {
     font-size: 15px;
     text-align: left;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .galeria-passeios {
@@ -563,7 +563,7 @@ p {
 .galeria-passeios p {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .galeria-grid {
@@ -597,7 +597,7 @@ p {
     width: fit-content;
     text-align: center;
     background-color: rgba(241, 255, 164, 0.20);
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     font-size: 40px;
     padding: 20px;
     border-radius: 50%;
