@@ -516,6 +516,7 @@ p {
     border-radius: 8px;
     margin-bottom: 20px;
     grid-column: span 1;
+    color: #ffffff;
 }
 
 .tabela-passeios h2 {
