@@ -511,12 +511,12 @@ p {
 .passeios-artigo {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.05);
     border: 2px solid #ffffff;
     border-radius: 8px;
     margin-bottom: 20px;
     grid-column: span 1;
     color: #ffffff;
+    background-color: var(--cor-primaria);
 }
 
 .tabela-passeios h2 {
