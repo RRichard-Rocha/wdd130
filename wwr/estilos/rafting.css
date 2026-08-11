@@ -466,7 +466,7 @@ p {
     margin-bottom: 15px;
 }
 
-.passeios-botao-passeio {
+.passeios-bot-passeio {
     position: relative;
     width: fit-content;
     margin: 20px auto;
@@ -481,7 +481,7 @@ p {
     text-align: center;
 }
 
-.passeios-botao-passeio a {
+.passeios-bot-passeio a {
     color: var(--cor-destaque1);
     text-decoration: none;
     font-weight: bold;
